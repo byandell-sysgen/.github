@@ -1,6 +1,6 @@
 # byandell-sysgen: Systems Genetics code from Brian Yandell
 
-The following repositories are roughly organized by project.
+Repositories are roughly organized by project.
 
 <details>
 <summary>QTL Repos</summary>
