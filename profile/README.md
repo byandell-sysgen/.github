@@ -2,6 +2,10 @@
 
 The following repositories are roughly organized by project.
 
+<details>
+<summary>QTL Repos</summary>
+<br>
+  
 | repo | title | type |
 | ---- | ----- | ----- |
 | `qtl2` |QTL analysis software for high-dimensional data and complex cross designs | [Broman R/qtl2](https://kbroman.org/qtl2/) |
@@ -15,25 +19,53 @@ The following repositories are roughly organized by project.
 | `qtlhot` | QTL hotspot inference | R analysis |
 | `qtlbcsft` | Tools for testing QTL BCsFt calculations | R analysis |
 | `qtlyeast` | QTL Analysis of Brem Kruglyak Yeast Data | R data |
-|||
+  
+</details>
+<details>
+<summary>Mediation Repos</summary>
+<br>
+  
+| repo | title | type |
+| ---- | ----- | ----- |
 | `intermediate` | small R utility for mediation analysis | [Churchill Lab](https://github.com/churchill-lab/intermediate) |
 | `qtl2mediate` | Mediation using package qtl2 | R analysis |
 | `Tmem68` | Tmem68 mRNA Data example from Chick et al. 2016 | [Churchill Lab](https://github.com/churchill-lab/intermediate) |
 | `qtlcmst` | QTL Causal Model Selection Tests | R analysis |
 | `CausalMST` | Causal Model Selection Hypothesis Tests | see `intermediate` and `qtl2mediate` |
 | `qdg` | QTL Directed Graphs | R analysis defunct? |
-|||
+  
+</details>
+<details>
+<summary>Founder Repos</summary>
+<br>
+  
+| repo | title | type |
+| ---- | ----- | ----- |
 | `foundr` | Multiparent Founder Study Tools | R analysis |
 | `foundrShiny` | Shiny app tools for foundr package | R shiny |
 | `foundrHarmony` | Harmonize data for foundr analysis and visualization | R tidy data |
 | `metabr` | Metabolite Data Processing | R analysis |
 | `modulr` | Trait Module Creation and Analysis | R analysis |
-|||
+  
+</details>
+<details>
+<summary>Attie Lab Repos</summary>
+<br>
+  
+| repo | title | type |
+| ---- | ----- | ----- |
 | `FounderDietStudy` | Founder Diet Study Application | [Attie Lab](https://github.com/AttieLab-Systems-Genetics) |
 | `FounderCalciumStudy` | Founder Calcium Study Application | [Attie Lab](https://github.com/AttieLab-Systems-Genetics) |
 | `DO_Diet` | DO Diet Study Application | [Attie Lab](https://github.com/AttieLab-Systems-Genetics) |
 | `AttieDOv2` | Attie DO 500 Study Application | R tidy data |
-|||
+  
+</details>
+<details>
+<summary>Other Repos</summary>
+<br>
+  
+| repo | title | type |
+| ---- | ----- | ----- |
 | `PlantSysGen` | Thailand Plant Systems Genetics Workshop 2017 | R analysis |
 | `thailand` | Thailand Plant Systems Genetics Workshop 2017 | HTML presentation |
 |||
