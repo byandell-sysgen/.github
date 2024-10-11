@@ -1,6 +1,6 @@
 # byandell-sysgen: Systems Genetics code from Brian Yandell
 
-The following 35 repositories are roughly organized by project.
+The following repositories are roughly organized by project.
 
 | repo | title | other |
 | ---- | ----- | ----- |
