@@ -1,19 +1,35 @@
-# byandell-sysgen: Systems Genetics code from Brian Yandell
+# byandell-sysgen: Systems Genetics, Genomics and -Omics
 
-Repositories are roughly organized by project.
+Thee repositories are from methods projects in systems genetics, genomics and (more broadly) omics that I have been involved with over time. The vast majority concern gene mapping, or QTLs. They are organized by subject
 
 <details>
 <summary>QTL Repos</summary>
 <br>
+
+QTL stands for
+[quantitative trait loci](https://www.nature.com/scitable/topicpage/quantitative-trait-locus-qtl-analysis-53904/),
+which is also known as gene mapping.
+Recent work builds on Karl Broman's
+[R/qtl2](https://kbroman.org/qtl2/)
+package,
+offering [ggplot2](https://ggplot2.tidyverse.org/) functionality as well as deeper dives into 
+[SNP](https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms)
+patterns.
+The `qtl2shiny` package provides a friendly interface to investigate local QTL behavior.
+It draws on mediation repos found in another dropdown menu.
+Earlier work builds on Broman's
+[R/qtl](https://rqtl.org/)
+package, and includes some useful features (notably hotspot analysis) not yet fully migrated to `R/qtl2`.
   
 | repo | title | type |
 | ---- | ----- | ----- |
 | [`qtl2`](https://github.com/byandell-sysgen/qtl2) |QTL analysis software for high-dimensional data and complex cross designs | [Broman R/qtl2](https://kbroman.org/qtl2/) |
-| [`qtl`](https://github.com/byandell-sysgen/qtl) | Branch of Karl Broman's R/qtl | [Broman R/qtl](https://rqtl.org/) |
 | [`qtl2ggplot`](https://github.com/byandell-sysgen/qtl2ggplot) | Extension of R/qtl2plot to ggplot2 | R graphics |
 | [`qtl2pattern`](https://github.com/byandell-sysgen/qtl2pattern) | Pattern support for R/qtl2 | R analysis |
 | [`qtl2shiny`](https://github.com/byandell-sysgen/qtl2shiny) | Shiny app for R/qtl2 | R shiny |
 | [`qtl2hot`](https://github.com/byandell-sysgen/qtl2hot) | Hot Spot Analysis with Qtl2 | R analysis in devel |
+|||
+| [`qtl`](https://github.com/byandell-sysgen/qtl) | Branch of Karl Broman's R/qtl | [Broman R/qtl](https://rqtl.org/) |
 | [`qtlbim`](https://github.com/byandell-sysgen/qtlbim) | QTL Bayesian Interval Mapping | R analysis |
 | [`qtlnet`](https://github.com/byandell-sysgen/qtlnet) | Infer QTL genetic architecture and causal network for set of correlated traits | R analysis |
 | [`qtlhot`](https://github.com/byandell-sysgen/qtlhot) | QTL hotspot inference | R analysis |
@@ -24,6 +40,11 @@ Repositories are roughly organized by project.
 <details>
 <summary>Mediation Repos</summary>
 <br>
+
+Mediation repos build on the excellent work of
+[Elias Chaibub Neto](https://www.linkedin.com/in/elias-chaibub-neto-a469913b/)
+on causal model selection tests.
+This is incorporated into the `qtl2shiny` app cited in the QTL dropdown menu.
   
 | repo | title | type |
 | ---- | ----- | ----- |
@@ -38,6 +59,11 @@ Repositories are roughly organized by project.
 <details>
 <summary>Founder Repos</summary>
 <br>
+
+These repos study the
+[Collaborative Cross (CC)](https://www.nature.com/articles/ng1104-1133)
+mouse founder lines.
+See `foundr` for information about deployed shiny apps.
   
 | repo | title | type |
 | ---- | ----- | ----- |
@@ -51,6 +77,11 @@ Repositories are roughly organized by project.
 <details>
 <summary>Attie Lab Repos</summary>
 <br>
+
+These repos are specific to collaboration with the
+[Alan Attie Lab](https://attielab.biochem.wisc.edu/)
+at UW-Madison Biochemistry.
+This is part of a long-term collaboration (>25 years) that has inspired much of my work.
   
 | repo | title | type |
 | ---- | ----- | ----- |
@@ -63,6 +94,8 @@ Repositories are roughly organized by project.
 <details>
 <summary>Other Repos</summary>
 <br>
+
+These other repos include a workshop in Thailand in 2017 and various projects that have not moved forward.
   
 | repo | title | type |
 | ---- | ----- | ----- |
