@@ -1,6 +1,13 @@
-# byandell-sysgen: Systems Genetics, Genomics and -Omics
+# byandell-sysgen Organization
 
-Thee repositories are from methods projects in systems genetics, genomics and (more broadly) omics that I have been involved with over time. The vast majority concern gene mapping, or QTLs. They are organized by subject
+These repositories study methods for
+[Systems Genetics](https://www.nature.com/articles/nrg3575),
+[Systems Genomics](https://www.nature.com/articles/s41598-020-75400-2)
+and 
+[Omics](https://www.ncbi.nlm.nih.gov/books/NBK202165/).
+I have been involved in this work for over 25 years.
+The vast majority concern gene mapping, or QTLs.
+They are organized by subject under dropdown menus.
 
 <details>
 <summary>QTL Repos</summary>
