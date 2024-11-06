@@ -31,6 +31,7 @@ package, and includes some useful features (notably hotspot analysis) not yet fu
 | repo | title | type |
 | ---- | ----- | ----- |
 | [`qtl2`](https://github.com/byandell-sysgen/qtl2) |QTL analysis software for high-dimensional data and complex cross designs | [Broman R/qtl2](https://kbroman.org/qtl2/) |
+| [`qtl2fst`](https://github.com/byandell-sysgen/qtl2fst) | R/qtl2 package using fst to store genotype probabilities | [Broman R/qtl2fst]([https://kbroman.org/qtl2fst/](https://github.com/rqtl/qtl2fst)) |
 | [`qtl2ggplot`](https://github.com/byandell-sysgen/qtl2ggplot) | Extension of R/qtl2plot to ggplot2 | R graphics |
 | [`qtl2pattern`](https://github.com/byandell-sysgen/qtl2pattern) | Pattern support for R/qtl2 | R analysis |
 | [`qtl2shiny`](https://github.com/byandell-sysgen/qtl2shiny) | Shiny app for R/qtl2 | R shiny |
